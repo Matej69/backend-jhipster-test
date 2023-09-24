@@ -65,6 +65,16 @@ public class AccountResource {
         mailService.sendActivationEmail(user);
     }
 
+
+
+    @PostMapping("/test-endpoint")
+    public String testEndpoint() {
+        return "WOrkzzzzzz";
+    }
+
+
+
+
     /**
      * {@code GET  /activate} : activate the registered user.
      *
