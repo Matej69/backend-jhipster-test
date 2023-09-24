@@ -69,7 +69,7 @@ public class AccountResource {
 
     @PostMapping("/test-endpoint")
     public String testEndpoint() {
-        return "WOrkzzzzzz";
+        return "WOrkzzzzzzaa";
     }
 
 
